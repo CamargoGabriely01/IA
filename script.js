@@ -6,7 +6,13 @@ const caixaPrincipal = document.querySelector(".texto-resultado");
 const perguntas = [
 {
     enunciado: "Pergunta1"
-    alternativas: ["alternativa1","alternativa2"]
+    alternativas: [
+        {
+            texto: "alternativa1",
+            afirmacao:"afirmacao1"
+        }
+    ],
+        
 },
 {
     enunciado: "Pergunta2"
