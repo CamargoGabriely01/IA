@@ -10,6 +10,10 @@ const perguntas = [
         {
             texto: "alternativa1",
             afirmacao:"afirmacao1"
+        },
+         {
+            texto: "alternativa2",
+            afirmacao:"afirmacao2"
         }
     ],
         
