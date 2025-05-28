@@ -1,11 +1,12 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPrincipal = document.querySelector(".caixa-perguntas");
-const caixaPrincipal = document.querySelector(".caixa-alternativas");
-const caixaPrincipal = document.querySelector(".caixa-resultado");
-const caixaPrincipal = document.querySelector(".texto-resultado");
+const caixaPerguntas= document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+
 const perguntas = [
 {
-    enunciado: "Pergunta1"
+    enunciado: "Pergunta1",
     alternativas: [
         {
             texto: "alternativa1",
@@ -19,7 +20,7 @@ const perguntas = [
         
 },
 {
-    enunciado: "Pergunta2"
+    enunciado: "Pergunta2",
     alternativas: ["alternativa1","alternativa2"]
 
 },
