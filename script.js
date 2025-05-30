@@ -29,7 +29,7 @@ const perguntas[
             },
             {
                 texto: "alternativa2", 
-                afirmacao: "afirmacao2",
+                afirmacao:"afirmacao2",
             },
         ]
     },
@@ -59,5 +59,8 @@ function motraPrgunta (){
 }
 
 function mostraAlternativas(){
-
+for( const alternativa of perguntaAtual.alternativas){
+    const botaoAlternativa = createElement("button");
+    botaoAlternativa.textContent = alternativa.texto;
+}
 }
